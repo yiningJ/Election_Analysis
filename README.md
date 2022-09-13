@@ -31,7 +31,7 @@ Winner Result:
 - The edition from the script of loading csv file could help us link and open any csv election data .
 file_to_load = os.path.join("Resources", "A_election_results.csv")
 - The edition from the script of counting total votes number could help us count any elections' total votes number
-for row in reader:
+\n for row in reader:
    total _votes = total_votes +1
    other_election_candidate_name = row[2]
    if other_election_candidate_name not in candidate_options"
