@@ -28,7 +28,7 @@ Winner Result:
 - Winning Percentage: 73.8%
 
 ##Election Audit Summary
-- The edition from the script of loading csv file could help us link and open any csv election data .
+- The edition from the script of loading csv file could help us link and open any csv election data.\
 file_to_load = os.path.join("Resources", "A_election_results.csv")
 - The edition from the script of counting total votes number could help us count any elections' total votes number\
 for row in reader:
